@@ -62,8 +62,10 @@ div.content div.menu
 
 .social-links
 {
-	display: ruby-text-container;
 	text-align: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .social-icon
