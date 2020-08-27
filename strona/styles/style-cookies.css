@@ -1,0 +1,111 @@
+#cookies
+{
+	display: block;
+	width: 100vw !important;
+	height: auto;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	-webkit-box-shadow: 0px -2px 4px -1px rgba(0,0,0,0.61);
+	-moz-box-shadow: 0px -2px 4px -1px rgba(0,0,0,0.61);
+	box-shadow: 0px -2px 4px -1px rgba(0,0,0,0.61);
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+#cookies .info
+{
+	float: left;
+	margin: 26px;
+	width: 70%;
+}
+
+#cookies .info img
+{
+	float: left;
+	margin-right: 25px;
+}
+
+#cookies .x
+{
+	font-size: 35px;
+	position: absolute;
+	line-height: 35px;
+	right: 0;
+	top: 0;
+	width: 35px;
+	height: 35px;
+	background-color: #FAFAFA;
+	text-align: center;
+	cursor: pointer;
+}
+
+#cookies .x:hover
+{
+	background-color: #FF3C3C;
+	/*transition: 0.5s;*/
+}
+
+#cookies .buttons
+{
+	float: left;
+	margin: 20px;
+}
+
+#cookies button
+{
+	height: 35px;
+	border: none;
+	cursor: pointer;
+	margin-left: 10px;
+	width: 155px;
+	outline: none;
+}
+
+@media only screen and (max-width: 900px)
+{
+	#cookies button
+	{
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	#cookies button
+	{
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 768px)
+{
+	#cookies button
+	{
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px)
+{
+	#cookies button
+	{
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1700px)
+{
+	#cookies button
+	{
+		display: block;
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (min-width: 1200px)
+{
+
+}
