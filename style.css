@@ -44,6 +44,7 @@ div.content div.menu
 
 .menu a
 {
+	font-size: 12px;
 	color: black;
 	text-decoration: none;
 	transition-duration:1.5s;
